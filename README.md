@@ -3,7 +3,7 @@
 ## Descrição do projeto 
 
 <p align="justify">
-Jogo do número secreto criado em JS, para teste Deply com Vercel
+Jogo do número secreto criado em JS, para teste Deploy com Vercel
 </p>
 
 ## Pré-requisitos
