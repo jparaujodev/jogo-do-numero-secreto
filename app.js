@@ -12,7 +12,7 @@
 
 //função com parametro (parametro é o que esta dentro do parenteses depois do nome da função)
 let listaNumerosSorteados=[]; //declaração da lista de numeros 
-let numeroMaximo = 3;
+let numeroMaximo = 20;
 let numeroSecreto = gerarNumeroAleatorio(); //declaração da variavel numero secreto, que recebe a função de gerador de numero secreto
 let tentativas = 1; //declaração da vriavel tentaiva semrpe começa com 1
  
@@ -26,7 +26,7 @@ function exibirTextoNaTela(tag, texto){ //função pra exibir texto na tela, ond
 
 function mensagemInicial(){//função pra mensagem inicial
 	exibirTextoNaTela('h1', 'Jogo do número secreto');//texto na tela
-	exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');//texto na tela
+	exibirTextoNaTela('p', 'Escolha um número entre 1 e 20');//texto na tela
 }
 
 mensagemInicial();
